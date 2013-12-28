@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+		<html>
+			<head>
+				<title>Web App Geek</title>
+				<meta charset="utf-8">
+				<meta name="description" content="place your description here" />
+				<meta name="author" content="Your name">
+				<meta name="keywords" content="Your keywords" />
+				<!-- Optimized mobile viewport -->
+				<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
+				<meta name="apple-mobile-web-app-capable" content="yes" />
+				<link rel="shortcut icon" href="https://graph.facebook.com/tarun29061990/picture">
+				
+				<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+				<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+				<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+				<!-- CSS -->
+				<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+				
+				<link rel="stylesheet" type="text/css" media="all" href="css/combined.min.css" />
+				
+
+				<!-- HTML5 IE Enabling Script -->
+				<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+				<![endif]-->
+
+				<!--[if lte IE 8]>
+					<style>
+						.main h1{
+							margin-right:10px;
+						}
+						.main nav{
+							overflow: hidden;
+							margin-left: 10%;
+							float: left;
+						}
+						.main nav ul{
+							padding:0 17px;
+							width:600px;
+
+						}
+						.main nav ul li{
+							display: inline;
+							line-height: 48px;
+						}
+						.main nav ul li a{
+							text-decoration:none;
+							font-size:28px;
+							margin-left:10%;
+							color:white;
+						}
+					</style>
+				<![endif]-->
+
+				</head>
+					<body>
+						<header class="main">
+							<h1>Tarun Chaudhary</h1>
+							<button id="menuButton" class="openMenu">. . .</button>
+							<nav>
+								<ul>
+									<li><a href="#about">About</a></li>
+									<li><a href="#blog">Blog</a></li>
+									<li><a href="#projects">Projects</a></li>
+									<li><a href="#contact">Contact</a></li>
+								</ul>
+							</nav>
+							<nav id="overflowMenu" style="display:none;">
+								<ul>
+									<li><a href="#about">About</a></li>
+									<li><a href="#blog">Blog</a></li>
+									<li><a href="#projects">Projects</a></li>
+									<li><a href="#contact">Contact</a></li>
+								</ul>
+							</nav>
+						</header>
+
+						<section class="container">
+							<section id="about">								
+								<div class="eachContainer">
+									<h1>About Me</h1>
+									<figure>
+										<img src="images/my-pic.jpg" alt="myPic" width="213" height="241"/>
+									</figure>
+									<span>Hi.....
+										Myself Tarun Chaudhary. My Journey Started on 29th of June 1990 at Kota (Rajasthan). I am a graduate from IIT Rajasthan, Electrical Engg. I love programming and I am crazy about web applications and want to conquer the whole web world. I love to explore and develop new things.In my free time I love to play guitar, Write poems and party with friends.
+									</span>
+									<a id="facebook" target="_blank" href="https://www.facebook.com/tarun29061990"><span id="fb-active"></span></a>
+									<a id="twitter" target="_blank" href="https://twitter.com/tarun29061990"><span id="twitter-active"></span></a>
+									<a id="linkedin" target="_blank" href="http://in.linkedin.com/in/tarun29061990"><span id="linkedin-active"></span></a>
+								</div>
+							</section>
+							<section id="blog">
+								<div class="eachContainer">
+									<h1>Blog</h1>
+									<section class="wordpress clearfix MB30">
+										<figure>
+											<a target="_blank" href="http://activegeek22.wordpress.com"><img src="images/wordpress-icon.jpg" alt="wordpress_logo" height="100" width="112"/></a>
+										</figure>
+										<span>This is my technical blog and can be visited <a href="http://activegeek22.wordpress.com">here</a>.</span>
+									</section>
+									<section class="blogger clearfix">
+										<figure>
+											<a target="_blank" href="http://adifferentway20.blogspot.in">
+												<img src="images/blogger-icon.jpg" alt="blogger_logo" height="100" width="112"/>
+											</a>
+										</figure>
+										<span>This is my blog full of poems and can be visited <a href="http://adifferentway20.blogspot.in">here</a>. It is a result of my free time and my passion towards writing poems.</span>
+									</section>
+								</div>
+							</section>
+
+							<section id="projects">
+								<div class="eachContainer">
+									<h1>Projects</h1>
+									<section class="github clearfix">
+										<figure>
+											<a target="_blank" href="https://github.com/tarun29061990"><img src="images/github-icon.png" alt="github_logo" height="100" width="112"/></a>
+										</figure>
+										<span>Want to look at my projects. Just visit my github account <a href="https://github.com/tarun29061990">here</a>.</span>
+									</section>
+								</div>
+							</section>
+							<section id="contact">
+								<div class="eachContainer">
+									<h1>Contact me</h1>
+									<p id="thankumessage">Thanks.. I have Received your message.. will reply very soon !!</p>
+									<fieldset id="contactForm">
+										<div class="MB30 OH field">
+											<div class="label FL">
+												<label>Name</label>
+											</div>
+											<div class="FL W264">
+												<input id="name" type="text" placeholder="Enter Your Name" />
+												<span class="error">Please enter a valid name</span>
+											</div>
+										</div>
+										<div class="MB30 OH field">
+											<div class="label FL">
+												<label>Email</label>
+											</div>
+											<div class="FL W264">
+												<input id="email" type="email" placeholder="Enter Your Email Id" />
+												<span class="error">Please enter a valid Email Id</span>
+											</div>
+										</div>
+										<div class="MB30 OH field">
+											<div class="label FL">
+												<label>Your Message</label>
+											</div>
+											<div class="FL W264">
+												<textarea id="message" placeholder="Enter some message"></textarea>
+												<span class="error">Please enter some message</span>
+											</div>
+										</div>
+										<div class="field">
+											<button id="submit">Submit</button>
+										</div>
+									</fieldset>
+								</div>
+							</section>
+						</section>
+						<!-- JavaScript at the bottom for fast page loading -->
+						<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+						
+						
+						<script src="js/combined.min.js"></script>
+						
+						
+						</body>
+						</html>
+						
