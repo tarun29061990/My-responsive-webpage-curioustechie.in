@@ -26,8 +26,8 @@
 	* html .clearfix { height: 1%; }
 	.clearfix { display: block; }
 
-	.W264{
-		width: 264px;
+	.W70{
+		width: 70%;
 	}
 
 	.FL{
@@ -116,8 +116,12 @@
 	}
 
 	#contactForm{
-		margin: 0 0 0 10%;
+		width:80%;
+		margin: 0 0 0 18%;
 	}
+
+	#contactForm dl{width:44%;border-bottom:2px dotted #ccc;}
+	#contactForm dl dd{margin:1% 0 0 17%;line-height:24px;}
 
 	.field label{
 		font-weight: bold;

@@ -11,7 +11,7 @@ function bindEvent(){
 }
 
 var onNavClick = function(e){
-    var elementClicked = $(e.target).attr("href");
+    var elementClicked = $(e.target).attr("data-src");
     console.log(elementClicked);
     var destination = $(elementClicked).offset().top;
     console.log(destination-60);

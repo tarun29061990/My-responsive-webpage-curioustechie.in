@@ -17,7 +17,7 @@
 				<!-- CSS -->
 				<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 				
-				<link rel="stylesheet" type="text/css" media="all" href="css/combined.min.css" />
+				<link rel="stylesheet" type="text/css" media="all" href="css/combined.min.css?v=3" />
 				
 
 				<!-- HTML5 IE Enabling Script -->
@@ -59,19 +59,19 @@
 							<button id="menuButton" class="openMenu">. . .</button>
 							<nav>
 								<ul>
-									<li><a href="#about">About</a></li>
-									<li><a href="#blog">Blog</a></li>
-									<li><a href="#projects">Projects</a></li>
-									<li><a href="#contact">Contact</a></li>
+									<li><a data-src="#about" href="javascript:void(0);">About</a></li>
+									<li><a data-src="#blog" href="javascript:void(0);">Blog</a></li>
+									<li><a data-src="#projects" href="javascript:void(0);">Projects</a></li>
+									<li><a data-src="#contact" href="javascript:void(0);">Contact</a></li>
 									<li><a target="_blank" href="resume.html">CV</a></li>
 								</ul>
 							</nav>
 							<nav id="overflowMenu" style="display:none;">
 								<ul>
-									<li><a href="#about">About</a></li>
-									<li><a href="#blog">Blog</a></li>
-									<li><a href="#projects">Projects</a></li>
-									<li><a href="#contact">Contact</a></li>
+									<li><a data-src="#about" href="javascript:void(0);">About</a></li>
+									<li><a data-src="#blog" href="javascript:void(0);">Blog</a></li>
+									<li><a data-src="#projects" href="javascript:void(0);">Projects</a></li>
+									<li><a data-src="#contact" href="javascript:void(0);">Contact</a></li>
 									<li><a target="_blank" href="resume.html">CV</a></li>
 								</ul>
 							</nav>
@@ -99,7 +99,7 @@
 										<figure>
 											<a target="_blank" href="http://activegeek22.wordpress.com"><img src="images/wordpress-icon.jpg" alt="wordpress_logo" height="100" width="112"/></a>
 										</figure>
-										<span>This is my technical blog and can be visited <a href="http://activegeek22.wordpress.com">here</a>.</span>
+										<span>This is my technical blog and can be visited <a target="_blank" href="http://activegeek22.wordpress.com">here</a>.</span>
 									</section>
 									<section class="blogger clearfix">
 										<figure>
@@ -107,7 +107,7 @@
 												<img src="images/blogger-icon.jpg" alt="blogger_logo" height="100" width="112"/>
 											</a>
 										</figure>
-										<span>This is my blog full of poems and can be visited <a href="http://adifferentway20.blogspot.in">here</a>. It is a result of my free time and my passion towards writing poems.</span>
+										<span>This is my blog full of poems and can be visited <a target="_blank" href="http://adifferentway20.blogspot.in">here</a>. It is a result of my free time and my passion towards writing poems.</span>
 									</section>
 								</div>
 							</section>
@@ -128,36 +128,20 @@
 									<h1>Contact me</h1>
 									<p id="thankumessage">Thanks.. I have Received your message.. will reply very soon !!</p>
 									<fieldset id="contactForm">
-										<div class="MB30 OH field">
-											<div class="label FL">
-												<label>Name</label>
-											</div>
-											<div class="FL W264">
-												<input id="name" type="text" placeholder="Enter Your Name" />
-												<span class="error">Please enter a valid name</span>
-											</div>
-										</div>
-										<div class="MB30 OH field">
-											<div class="label FL">
-												<label>Email</label>
-											</div>
-											<div class="FL W264">
-												<input id="email" type="email" placeholder="Enter Your Email Id" />
-												<span class="error">Please enter a valid Email Id</span>
-											</div>
-										</div>
-										<div class="MB30 OH field">
-											<div class="label FL">
-												<label>Your Message</label>
-											</div>
-											<div class="FL W264">
-												<textarea id="message" placeholder="Enter some message"></textarea>
-												<span class="error">Please enter some message</span>
-											</div>
-										</div>
-										<div class="field">
-											<button id="submit">Submit</button>
-										</div>
+										<dl class="MB30 OH field">
+											<dt class="label">Postal Address</dt>
+											<dd class="W70">#420, KHB colony, Koramangala 5th block, Bangalore, Karnataka</dd>
+										</dl>
+										<dl class="MB30 OH field">
+											<dt class="label">Email</dt>
+											<dd class="W70">
+												<a href="mailto:tarun29061990@gmail.com">tarun29061990@gmail.com</a>
+											</dd>
+										</dl>
+										<dl class="MB30 OH field">
+											<dt class="label">Phone no</dt>
+											<dd class="W70">+91-9019133053</dd>
+										</dl>
 									</fieldset>
 								</div>
 							</section>
@@ -166,7 +150,7 @@
 						<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 						
 						
-						<script src="js/combined.min.js"></script>
+						<script src="js/combined.min.js?v=3"></script>
 						
 						
 						</body>
