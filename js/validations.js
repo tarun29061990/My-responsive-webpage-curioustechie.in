@@ -1,12 +1,3 @@
-/*
-*
-* This is validation sigelton class
-* All the validation in the application should pass from here
-* Only thing returned from here is {true, false}
-* Validation logic should reside here with validation rules as well
-* 
-*/
-
 
 Validation = new function(){
 	
